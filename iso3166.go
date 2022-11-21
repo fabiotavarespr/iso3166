@@ -39,12 +39,24 @@ func (iso Isos3166) Iso3166ByAlpha3Code(code string) *Iso3166 {
 	return sc
 }
 
+func Iso3166ByAlpha3Code(code string) *Iso3166 {
+	return isos3166.Iso3166ByAlpha3Code(code)
+}
+
 func ExistsIso3166ByAlpha3Code(code string) bool {
 	return isos3166.Iso3166ByAlpha3Code(code) != nil
 }
 
+func Iso3166ByAlpha2Code(code string) *Iso3166 {
+	return isos3166.Iso3166ByAlpha2Code(code)
+}
+
 func ExistsIso3166ByAlpha2Code(code string) bool {
 	return isos3166.Iso3166ByAlpha2Code(code) != nil
+}
+
+func Iso3166ByNumericCode(code string) *Iso3166 {
+	return isos3166.Iso3166ByNumericCode(code)
 }
 
 func ExistsIso3166ByNumericCode(code string) bool {
