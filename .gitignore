@@ -5,6 +5,16 @@
 *.so
 *.dylib
 
+# macOS
+**/.DS_Store
+
+# IDES
+.idea
+.vscode
+
+# Environment variables
+.env
+
 # Test binary, built with `go test -c`
 *.test
 
