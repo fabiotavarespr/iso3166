@@ -82,3 +82,17 @@ func TestExistsIso3166ByNumericCode(t *testing.T) {
 		})
 	}
 }
+
+func TestIso3166ByAlpha3Code(t *testing.T) {
+	entry := isos3166.Iso3166ByAlpha3Code("CXR")
+	if entry == nil {
+		t.Fatalf("expected entry for CXR, got nil")
+	}
+	if entry.nameEn != "Christmas Island" {
+		t.Errorf("expected nameEn = %q, got %q", "Christmas Island", entry.nameEn)
+	}
+	if entry.nameFr != "Christmas (l'Île)" {
+		t.Errorf("expected nameFr = %q, got %q", "Christmas (l'Île)", entry.nameFr)
+	}
+}
+
