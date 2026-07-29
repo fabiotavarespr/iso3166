@@ -107,7 +107,7 @@ var isos3166 = Isos3166{
 	"CRI": {nameEn: "Costa Rica", nameFr: "Costa Rica (le)", alpha2Code: "CR", alpha3Code: "CRI", numericCode: "188"},
 	"CUB": {nameEn: "Cuba", nameFr: "Cuba", alpha2Code: "CU", alpha3Code: "CUB", numericCode: "192"},
 	"CUW": {nameEn: "Curaçao", nameFr: "Curaçao", alpha2Code: "CW", alpha3Code: "CUW", numericCode: "531"},
-	"CXR": {nameEn: "Christmas Island,Christmas (l'Île)", alpha2Code: "CX", alpha3Code: "CXR", numericCode: "162"},
+	"CXR": {nameEn: "Christmas Island", nameFr: "Christmas (l'Île)", alpha2Code: "CX", alpha3Code: "CXR", numericCode: "162"},
 	"CYM": {nameEn: "Cayman Islands (the)", nameFr: "Caïmans (les Îles)", alpha2Code: "KY", alpha3Code: "CYM", numericCode: "136"},
 	"CYP": {nameEn: "Cyprus", nameFr: "Chypre", alpha2Code: "CY", alpha3Code: "CYP", numericCode: "196"},
 	"CZE": {nameEn: "Czechia", nameFr: "Tchéquie (la)", alpha2Code: "CZ", alpha3Code: "CZE", numericCode: "203"},
